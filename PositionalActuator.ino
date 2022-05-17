@@ -456,7 +456,7 @@ int convertToMillimetres(long pos) {
 
 void setup() {
   Serial.begin(9600);
-  setupEthernet();
+  // setupEthernet();
   setupActuator();
 }
 
